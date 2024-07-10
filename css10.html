@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d{
+            height: 500px;
+            width: 500px;
+            background-color: brown;
+            display: flex;
+           /* flex-direction: row-reverse;*/
+            /*flex-wrap: row wrap;*/
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .child{
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            border: 5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="d">
+        <div id="d1" class="child">1</div>
+        <div id="d2" class="child">2</div>
+        <div id="d3" class="child">3</div>
+        <div id="d4" class="child">4</div>
+        <div id="d5" class="child">5</div>
+        <div id="d6" class="child">6</div>
+    </div>
+</body>
+</html>

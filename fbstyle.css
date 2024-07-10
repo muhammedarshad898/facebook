@@ -1,0 +1,116 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.header{
+    background-color: #3c5c9c;
+    height: 63px;
+}
+.logo{
+    color: white;
+    position: absolute;
+    top: 16px;
+    left: 90px;
+
+}
+.login{
+    position: absolute;
+    top: 1px;
+    right: 100px;
+    color: white;
+}
+#b1{
+    background-color: #3c5c9c;
+    color: white;
+
+}
+.body{
+    background-color: #E2E5F0;
+    height: 684px;;
+}
+img{
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    
+
+}
+.content{
+    font-size: 25px;
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+.profile{
+    position: fixed;
+    top: 120px;
+    right: 100px;
+}
+p{
+    font-size: 20px;
+}
+.fstnm{
+    width: 250px;
+height: 40px;
+border: 10px;
+border-radius: 5px;
+border-color: #3c5c9c;
+border-spacing: 10px;
+
+
+}
+.surnm{
+
+width: 250px;
+height: 40px;
+border: 10px;
+border-radius: 5px;
+border-color: #3c5c9c;
+
+
+}
+.email{
+
+width: 250px;
+height: 40px;
+border: 10px;
+border-radius: 5px;
+border-color: #3c5c9c;
+
+
+}
+.pswd{
+    width: 250px;
+height: 40px;
+border: 10px;
+border-radius: 5px;
+border-color: #3c5c9c;
+
+
+}
+.bday{
+    font-size: 17px;
+    font-weight: bold;
+}
+.gen{
+    font-weight: bold;
+}
+.signup{
+    background-color: green;
+    height: 40px;
+    width: 180px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+position: absolute;
+bottom: 100px;
+right: 470px;
+}
+.forgotten{
+    text-decoration: none;
+}
